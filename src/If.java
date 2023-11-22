@@ -1,9 +1,12 @@
 public class If {
     public static void main(String[] args) {
-        if (4 == 5) {
+        int myInt = 15;
+        if (myInt < 10) {
             System.out.println("Да, верно.");
-        } else{
+        } else if(myInt > 20){
             System.out.println("Нет, не верно.");
+        } else{
+            System.out.println("Ни один из предыдущих случаев.");
         }
     }
 }
